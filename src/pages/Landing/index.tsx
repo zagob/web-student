@@ -94,7 +94,7 @@ const Landing: React.FC = () => {
             {users.map(user => (
                 <ContentUser key={user.id}>
                     <div className="avatar">
-                        <img src="https://avatars2.githubusercontent.com/u/30050630?s=460&u=a1ad6d48c1b6c059e22e68fd073987a993af448d&v=4" alt=""/>
+                        <img src="https://images.vexels.com/media/users/3/147102/isolated/preview/082213cb0f9eabb7e6715f59ef7d322a---cone-do-perfil-do-instagram-by-vexels.png" alt=""/>
                     </div>
                     <h1>{user.name}</h1>
                     <p>{user.age} years</p>
